@@ -1,9 +1,9 @@
 <?php
 
-include("KontrakPresenter.php");
+include("kontrak/KontrakPasien.php");
 
 
-class ProsesPasien implements KontrakPresenter
+class ProsesPasien implements KontrakPasienPresenter
 {
 	private $tabelpasien;
 	private $data = [];
