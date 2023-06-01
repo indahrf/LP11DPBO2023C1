@@ -29,3 +29,4 @@ Saya Indah Resti Fauzi dengan NIM 2103507 mengerjakan Latihan Praktikum 11 DPBO 
 
 - Record
 
+https://github.com/indahrf/LP11DPBO2023C1/assets/99266430/e2d3e8c4-b181-4e14-a825-61f6ac51d120
