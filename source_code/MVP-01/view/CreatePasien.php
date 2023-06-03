@@ -105,7 +105,7 @@ class CreatePasien
         $this->prosespasien->createPasien($datapasien);
     }
 
-    function update($id)
+    function update()
     {
         $datapasien = array(
             'id' => $_POST['id'],
@@ -118,6 +118,6 @@ class CreatePasien
             'telp' => $_POST['telp']
         );
 
-        $this->prosespasien->updatePasien($datapasien, $id);
+        $this->prosespasien->updatePasien($datapasien);
     }
 }

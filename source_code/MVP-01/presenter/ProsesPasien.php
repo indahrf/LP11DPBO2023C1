@@ -68,11 +68,11 @@ class ProsesPasien implements KontrakPasienPresenter
 	}
 
 
-	function updatePasien($pasienData, $id)
+	function updatePasien($pasienData)
     {
         try {
             $this->tabelpasien->open();
-            $this->tabelpasien->updatePasien($pasienData, $id);
+            $this->tabelpasien->updatePasien($pasienData);
             $this->tabelpasien->close();
 
 			header('Location: index.php');

@@ -22,7 +22,7 @@ class TabelPasien extends DB
         return $this->execute($query);
     }
     
-    function updatePasien($data, $id)
+    function updatePasien($data)
     {
         
         // Query mysql update data pasien
